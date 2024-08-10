@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busin Assist Assignment</title>
+    <!-- Bootstrap CSS and JS -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Animate.CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Slick Carousel JS -->
+    <link rel="shortcut icon" type="image/png" href="./assets/img/businassist_logo.png">
+</head>
+
+<body>
+
+    <div class="content">
+        <!-- Topbar -->
+        <div class="container-fluid text-center py-3 topbar">
+
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <a class="navbar-brand" href="#">
+                            <img src="./assets/img/businassist_logo.png" alt="site-logo" width="210" height="50">
+                        </a>
+                    </div>
+                    <div class="col header_info">
+                        <i class="header_icons fa fa-envelope-o" aria-hidden="true"></i>
+                        <div>
+                            <p class="header_para_1">Email Us:</p>
+                            <p class="header_para_2 fs-6">info@BusinAssist.com</p>
+                        </div>
+
+                    </div>
+                    <div class="col header_info">
+                        <i class="header_icons fa fa-phone" aria-hidden="true"></i>
+                        <div>
+                            <p class="header_para_1">Call Us:</p>
+                            <p class="fs-6">+44(0)3030401239</p>
+                        </div>
+
+                    </div>
+                    <div class="col header_info">
+                        <i class="header_icons fa fa-whatsapp" aria-hidden="true"></i>
+                        <div>
+                            <p class="header_para_1">Whatsapp:</p>
+                            <p class="fs-6">Message us</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navbar Starts -->
+            <div class="bg-white topNav">
+                <nav class="navbar navbar-expand-lg fw-bold">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown mx-1" data-dropdown-in="fadeIn"
+                                    data-dropdown-out="fadeOut">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Back Office Solutions
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Option-1</a></li>
+                                        <li><a class="dropdown-item" href="#">Option-2</a></li>
+                                        <li><a class="dropdown-item" href="#">Option-3</a></li>
+                                        <li><a class="dropdown-item" href="#">Option-4</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown mx-1">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Company Services
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Option-1</a></li>
+                                        <li><a class="dropdown-item" href="#">Option-2</a></li>
+                                        <li><a class="dropdown-item" href="#">Option-3</a></li>
+                                        <li><a class="dropdown-item" href="#">Option-4</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown mx-1">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Communications
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Option-1</a></li>
+                                        <li><a class="dropdown-item" href="#">Option-2</a></li>
+                                        <li><a class="dropdown-item" href="#">Option-3</a></li>
+                                        <li><a class="dropdown-item" href="#">Option-4</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown mx-1">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Virtual Offices
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Option-1</a></li>
+                                        <li><a class="dropdown-item" href="#">Option-2</a></li>
+                                        <li><a class="dropdown-item" href="#">Option-3</a></li>
+                                        <li><a class="dropdown-item" href="#">Option-4</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Customer Portal</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- Navbar Ends -->
+        </div>
+
+        <!-- Boxes -->
+        <div class="container-fluid homePage py-3">
+            <div class="container">
+                <!-- 3 Boxes  -->
+                <div class="row align-items-start">
+                    <div class="col-lg-4 cardBody">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">UK Virtual Office <br> Packages</h5>
+                                <p class="card-text mb-0">From</p>
+                                <p class="card-text text-center mb-0 fs-1"><i class="fa fa-gbp" aria-hidden="true"></i>
+                                    0.88</p>
+                                <p class="card-text text-end">Per Week</p>
+                                <p class="card-text text-center">for us to register a compant at your own address</p>
+
+                                <div class="text-center">
+                                    <a href="#" class="card-link card_btn">Click Here</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 cardBody">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">UK Limited Company Incorporation</h5>
+                                <p class="card-text mb-0">Pay</p>
+                                <p class="card-text text-center mb-0 fs-1"><i class="fa fa-gbp" aria-hidden="true"></i>
+                                    0.00</p>
+                                <p class="card-text text-end">One Time</p>
+                                <p class="card-text text-center">for us to register a compant at your own address</p>
+
+                                <div class="text-center">
+                                    <a href="#" class="card-link card_btn">Click Here</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 cardBody">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">UK Limited Company Incorporation</h5>
+                                <p class="card-text mb-0">Pay Only</p>
+                                <p class="card-text text-center mb-0 fs-1"><i class="fa fa-gbp" aria-hidden="true"></i>
+                                    0.99</p>
+                                <p class="card-text text-end">One Time</p>
+                                <p class="card-text text-center">for us to register a compant at your own address</p>
+
+                                <div class="text-center">
+                                    <a href="#" class="card-link card_btn">Click Here</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image and Text -->
+                <div class="my-5">
+                    <h2 class="text-center text-white fw-bold">NON UK RESIDENTS WELCOME AT NO EXTRA CHARGE</h2>
+
+                    <!-- 3 Boxes and Image -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="container">
+                                    <div class="row text-center my-2 p-2">
+                                        <div class="col project_stats bg-white">
+                                            <h5 class="fw-bolder fs-6">
+                                                <span class="fw-bolder fs-3 lh-base count">15</span>
+                                                <span class="fw-bolder fs-3 lh-base">+</span>
+                                                <br />
+                                                Years of Experience Providing Business Support
+                                                Solutions
+                                            </h5>
+                                        </div>
+                                        <div class="col project_stats bg-white mx-2">
+                                            <h5 class="fw-bolder fs-6"><span
+                                                    class="fw-bolder fs-3 lh-base count">9490</span>
+                                                <span class="fw-bolder fs-3 lh-base">+</span>
+                                                <br /> Clients Served to Date
+                                            </h5>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row text-center my-2 p-2">
+                                        <div class="col project_stats bg-white">
+                                            <h5 class="fw-bolder fs-6">
+                                                <span class="fw-bolder fs-3 lh-base count">12</span>
+                                                <span class="fw-bolder fs-3 lh-base">+</span>
+                                                <br />
+                                                Countries From Which Our Clients Originate
+                                            </h5>
+                                        </div>
+                                        <div class="col project_stats bg-white mx-2">
+                                            <h5 class="fw-bolder fs-6"><span class="fw-bolder fs-3 lh-base">1</span>
+                                                <span class="fw-bolder fs-3 lh-base">Day</span>
+                                                <br /> Average Application Processing Time
+                                            </h5>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-flex justify-content-center align-items-end">
+                                <img src="./assets/img/home_img.png" alt="croped-image-logo" srcset=""
+                                    class="client_image">
+                            </div>
+
+                            <div class="col-lg-4 d-flex justify-content-center align-items-center">
+                                <div class="card" style="width: 22rem;">
+                                    <div class="card-body third_card d-flex bg-white">
+
+                                        <img src="./assets/img/user_img.jpg" width="60" alt="user image">
+                                        <div class="mx-3">
+                                            <h5 class="card-title fw-bolder">Kristiyan Temelski</h5>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+
+                                    </div>
+                                    <p class="card-text fw-medium p-3">Great service and fast support. I'm happy that I
+                                        choose them
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- Logo-Slider -->
+
+        <div class="container-fluid py-2 mt-2 logo_slider">
+            <div class="row slider-class">
+                <div class="col logo_slider_img">
+                    <img src="./assets/img/reward_1.jpg" alt="" srcset="">
+                </div>
+                <div class="col logo_slider_img">
+                    <img src="./assets/img/reward_1.jpg" alt="" srcset="">
+
+                </div>
+                <div class="col logo_slider_img">
+                    <img src="./assets/img/reward_1.jpg" alt="" srcset="">
+                </div>
+
+                <div class="col logo_slider_img">
+                    <img src="./assets/img/reward_1.jpg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="container-fluid py-2 mt-2 footer">
+
+            <footer class="text-center text-lg-start text-white p-4 ">
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <div class="row mt-3">
+                            <div
+                                class="col-md-6 col-lg-3 col-xl-3 mx-auto mb-4 wow animate__animated animate__fadeInLeft">
+                                <h6 class="fw-bold mb-3 fs-5">Head Office</h6>
+                                <p class="fw-light">321-323 High Road, Chadwell Heath, Essex, RM6 6AX. United Kingdom
+                                </p>
+
+                                <h6 class="fw-bold">Email Us</h6>
+                                <p class="fw-light">info@businassist.com</p>
+
+                                <h6 class="fw-bold">Call Us</h6>
+                                <p>+44 (0) 30 30 40 123 9</p>
+
+                                <h6 class="fw-bold">ICO Reg. No.</h6>
+                                <p>ZA666014</p>
+
+                                <h6 class="fw-bold">HMRC / AML Registration Number</h6>
+                                <p>XLML00000186782</p>
+
+                            </div>
+
+                            <div
+                                class="col-md-6  col-lg-3 col-xl-3 mx-auto mb-4 wow animate__animated animate__fadeInLeft">
+                                <h6 class="fw-bold mb-3">Virtual Office Locations</h6>
+                                <p>321-323 High Road, Chadwell Heath, Essex, RM6 6AX. United Kingdom</p>
+
+                                <h6 class="fw-bold">Email Us</h6>
+                                <p>info@businassist.com</p>
+
+                                <h6 class="fw-bold">Call Us</h6>
+                                <p>+44 (0) 30 30 40 123 9</p>
+
+                                <h6 class="fw-bold">ICO Reg. No.</h6>
+                                <p>ZA666014</p>
+
+                                <h6 class="fw-bold">HMRC / AML Registration Number</h6>
+                                <p>XLML00000186782</p>
+
+                            </div>
+                            <div
+                                class="col-md-6 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 wow animate__animated animate__fadeInRight">
+                                <h6 class="fw-bold mb-3">Back Office Solutions </h6>
+                                <ul>
+                                    <li>Data Input</li>
+                                    <li>Document Processing</li>
+                                    <li>Data Extraction and Conversion</li>
+                                    <li>Call Answering</li>
+                                    <li>Customer Services via email</li>
+                                    <li>Customer Services via call centre</li>
+                                    <li>Customer Services via Live Chat</li>
+                                    <li>Virtual Assistants</li>
+                                </ul>
+
+                                <h6 class="fw-bold mb-3">UK Bank Account Formation </h6>
+                                <ul>
+                                    <li>Barclays</li>
+                                    <li>Tide</li>
+
+                                </ul>
+
+                            </div>
+                            <div
+                                class="col-md-6 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 wow animate__animated animate__fadeInRight">
+                                <h6 class="fw-bold mb-3">Popular Pages </h6>
+                                <ul>
+                                    <li>Virtual Offices</li>
+                                    <li>Shared Offices</li>
+                                    <li>UK Charity Formation</li>
+                                    <li>ID-Docs</li>
+                                    <li>Blog</li>
+                                    <li>About Us</li>
+                                    <li>Contact Us</li>
+                                    <li>Terms & Conditions</li>
+                                    <li>Privacy Policy</li>
+                                </ul>
+
+                                <h6 class="fw-bold mb-3">UK Company Formation </h6>
+                                <ul>
+                                    <li>Ltd Company Formation</li>
+                                    <li>UK Charity Registration</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="my-1">
+
+                <!-- Section: Copyright -->
+                <section class="p-3 pt-0">
+                    <div class="">
+                        <div class="text-center text-md-start w-50 mx-auto copyRight">
+                            <div class="p-3 text-center">
+                                © 2024 BusinAssist All Right Reserved.
+                            </div>
+                            <p class="text-center text-secondary wow animate__animated animate__fadeInUp"
+                                data-wow-offset="50">
+                                BusinAssist is a trading name of Icon Offices Ltd.
+                                Registered Address 321-323 High Road, RM6 6AX, UK
+                                Registered in England & Wales. Registered Co. No. 10343713
+                            </p>
+                        </div>
+
+
+                    </div>
+                </section>
+
+            </footer>
+            <!-- Footer -->
+
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js"
+        integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Slick Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Slick Carousel -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slider-class').slick({
+                centerMode: true,
+                centerPadding: '70px',
+                infinite: true,
+                autoplay: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplaySpeed: 2000,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+
+                ]
+            });
+        });
+    </script>
+
+    <!-- WowJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <!-- Way Points CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+        crossorigin="anonymous"></script>
+
+    <!-- Counterup CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+        integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+        crossorigin="anonymous"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- Counter Up -->
+    <script>
+        $('.count').counterUp({
+            delay: 10,
+            time: 2000
+        });
+
+    </script>
+</body>
+
+</html>
